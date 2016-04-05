@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon ./app/index.js",
+    "start": "node ./app/index.js",
+    "postinstall": "grunt build"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
